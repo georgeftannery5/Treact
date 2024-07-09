@@ -841,3 +841,91 @@ body {
   }
 
   /* PRE-FOOTER */
+
+  .pre-foot-row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 56px;
+  }
+
+  .pre-foot-wrap{
+    max-width: 1200px;
+    background-color: blue
+    ;
+    border-radius: 14px;
+    padding: 96px 0;
+  }
+
+  .pre-foot-text{
+    display: flex;
+    align-items: center;
+  }
+
+  .text-left{
+    width: 50%;
+  }
+
+  .text-right{
+    width: 50%;
+    display: flex;
+    padding-left: 64px;
+  }
+  
+  .pre-foot-button{
+    border: 1px solid;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: salmon;
+    color: white;
+    border-color: transparent;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    margin-left: 32px;
+    margin-right: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .pre-foot-button:hover{
+    opacity: 0.9;
+    background-color: rgb(245 101 101);
+  }
+
+  .pre-foot-button2:hover{
+    background-color: navy;
+    color: slateblue;
+  }
+
+  .pre-foot-button2{
+    border: 1px solid;
+  width: 160px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: aqua; 
+  border-color: royalblue;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  }
+
+  .pre-foot-h1{
+    font-size: 36px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 36px;
+    padding-right: 64px;
+  }
