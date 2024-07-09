@@ -445,3 +445,89 @@ body {
     border: 1px solid lightgray;
     max-width: 100%;
   }
+
+  /* GET STARTED */
+
+  .h2-steps{
+    color: navy;
+    font-size: 16px;
+  }
+  .row-get{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+    align-items: center;
+  }
+
+  .get-started-left{
+    width: 50%;
+  }
+
+  .get-started-img{
+    margin-top: 50px;
+    width: 100%;
+  }  
+
+ .get-started-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 50px;
+ }
+
+ .steps-h1{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    padding-bottom: 24px;
+    font-size: 40;
+ }
+
+ .steps-info{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .steps-info-wrap{
+    display: flex;
+    padding: 24px 0;
+ }
+
+ .step{
+    display: flex;
+ }
+
+ .step-number{
+    display: flex;
+    flex-wrap: wrap;
+    color: lightgray;
+    font-size: 40px;
+ }
+
+ .step-number-wrap{
+    display: flex;
+ }
+
+ .step-title{
+    padding-bottom: 16px;
+ }
+
+ .step-para{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 28px;
+    color: gray;
+ }
+
+ .step-title-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+ }
+
+ /* VALUES */
+
+ 
