@@ -210,7 +210,7 @@ body {
   }
 
   .beautiful-office{
-    max-width: 50%;
+    max-width: 100%;
   }
 
   .beautiful-left{
@@ -647,3 +647,197 @@ body {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+/* PRICING */
+
+.pricing-container{
+    margin-top: 80px;
+}
+
+.row-pricing{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-pricing{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.h1-pricing{
+    font-size: 48px;
+}
+
+.plan-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.plan-left{
+    width: calc(100% / 3);
+    max-width: 100%;
+    display: flex;
+    padding: 3px;
+    margin: 0 24px;
+    flex-direction: column;
+    text-align: center;
+    border-top: 8px solid;
+    border-image: linear-gradient(rgb(56, 178, 172), rgb(129, 230, 217));
+    border-image-slice: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-top{
+    border-bottom: 2px solid;
+    border-color: #e5e7eb;
+}
+
+.plan-mid{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+    border-bottom: 2px solid;
+    border-color: rgb(226, 232, 240);
+}
+
+.plan-center{
+    width: calc(100% / 3);
+    max-width: 100%;
+    display: flex;
+    padding: 3px;
+    margin: 0 8px;
+    border-top: 8px solid;
+    border-color: transparent;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 8px;
+    background-image: linear-gradient(aqua, rgb(102, 126, 234));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.plan-right{
+    width: calc(100% / 3);
+    max-width: 100%;
+    display: flex;
+    padding: 3px;
+    margin: 0 24px;
+    flex-direction: column;
+    text-align: center;
+    border-top: 9px solid;
+    border-image: linear-gradient(rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-image-slice: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.plan-mid-center{
+    border-color: aquamarine;
+}
+
+.price-button{
+    display: flex;
+    justify-content: center;
+}
+
+.plan-name{
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 16px 0;
+}
+
+
+.plan-cost{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 8px 0;
+  }
+
+  .plan-pay{
+    font-weight: 700;
+    color: gray;
+    letter-spacing: 0.1rem;
+    margin: 12px 0;
+    padding: 16px;
+  }
+
+  .plan-mid-head{
+    font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+  }
+
+  .plan-mid-desc{
+    margin: 16px 0;
+  }
+
+  .price-button{
+    padding: 32px;
+  }
+
+  .buy-now-left{
+    border: 1px solid;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 30px;
+    background: linear-gradient(rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .buy-now-center{
+    border: 1px solid;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 30px;
+    background: aqua;
+    color: rgb(100 21 255);
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+
+  .buy-now-right{
+    border: 1px solid;
+    width: 160px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 30px;
+    background: linear-gradient(
+      115deg,
+      rgb(245, 101, 101) 0%,
+      rgb(254, 178, 178) 100%
+    );
+    color: white;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* PRE-FOOTER */
