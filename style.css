@@ -840,6 +840,9 @@ body {
     margin-bottom: 8px;
   }
 
+
+  /* TESTIMONIAL */
+
   /* PRE-FOOTER */
 
   .pre-foot-row{
@@ -1040,7 +1043,7 @@ body {
     }
 
     .feature__services{
-        padding: 48px; 24px;
+        padding: 48px;
     }
   }
 
