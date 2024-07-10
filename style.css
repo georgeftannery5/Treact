@@ -57,20 +57,6 @@ body {
     width: 100%;
   }
   
-/*  @keyframes animate-nav{
-    0%{
-      transform: scale(0);
-    }
-  
-    80%{
-      transform: scale(1) ;
-    }
-  
-    100%{
-      transform: scale(1);
-    }
-  }
-    */
   
   .logo {
     max-width: 64px;
@@ -1310,7 +1296,7 @@ body {
 
     .trusted-customers{
       position: relative;
-      left: 60px:
+      left: 60px;
     }
 
     .beautiful-office{
@@ -1552,10 +1538,126 @@ body {
 
       .foot-socials{
         margin: 0;
-      }. 
+      } 
 
   }
 
   @media(max-width: 576px){
 
+    .beautiful-office{
+      max-width: 400px;
+    }
+
+    .beautiful-right{
+      width: 100%;
+      margin-left: 198px;
+    }
+
+    .pre-foot-h1{
+      font-size: 32px;
+    }
+
+    .img-title{
+      font-size: 16px;
+    }
+
+    .copyright{
+      font-size: 10px;
+    }
+
+    .beautiful-left{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .h1{
+      padding-left: 12px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .head-para{
+      padding-left: 12px;
+    }
+    
+    .customers-para{
+      margin-left: 24px;
+    }
+
+    .text__box{
+      display: flex;
+      text-align: center;
+      padding-left: 0;
+    }
+
+    .button{
+      align-items: center;
+      justify-content: center;
+      padding-left: 24px;
+    }
+
+    .text{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 24px;
+    padding: 0 16px;
+    }
+
+    .customers{
+      width: 100%;
+      flex-direction: column;
+      margin: 24px;
+    }
+
+    .quality-img{
+      max-width: 100%;
+    }
+
+    .values-h1{
+      padding: 16px 0;
+    }
+
+    .h2-pricing{
+      margin: 0 24px;
+      text-align: center;
+    }
+
+    .testi-wrap1{
+      width: 100%;
+    }
+
+    .testi-buttons{
+      justify-content: space-between;;
+    }
+
+    .testi-button{
+      padding: 8px;
+      margin: 0;
+    }
+
+    .pre-foot-button{
+      padding: 32px 0;
+    }
+
+    .pre-foot-button2{
+      padding: 32px 0;
+    }
+
+      .foot-list{
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .foot-links{
+        display: flex;
+        width: calc(100%/2);
+        justify-content: center;
+      }
   }
