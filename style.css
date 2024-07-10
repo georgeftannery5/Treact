@@ -843,6 +843,112 @@ body {
 
   /* TESTIMONIAL */
 
+  .row-testi{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 160px;
+  }
+
+  .testi-wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .testi-left{
+    width: 50%;
+  }
+
+  .testi-img{
+    margin-top: 160px;
+    width: 100%;
+  }
+
+  .testi-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+  }
+
+  .h2-testi{
+    color: navy;
+    font-size: 16px;
+  }
+
+  .h1-testi{
+    font-size: 48px;
+  }
+
+  .testi-para{
+    font-size: 1.125rem;
+  color: gray;
+  margin-top: 24px;
+  line-height: 1.625;
+  font-weight: 500;
+  }
+
+  .testi-main{
+    margin-top: 40px;
+  }
+
+  .testi-stars{
+    color: gold;
+  }
+
+  .user-testi{
+    margin: 16px 0 32px 0;
+  line-height: 1.625;
+  font-weight: 500;
+  color: darkgray;
+  }
+
+  .testi-wrap1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+
+  .charl-testi-img{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 9999px;
+  }
+
+  .charli-testi-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.testi-info{
+  margin: 46px 26px;
+}
+
+.testi-name{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.testi-job{
+  color: lightgray;
+}
+.testi-buttons{
+  margin-top: 46px;
+}
+
+.testi-button{
+  color: navy;
+  font-size: 20px;
+  border-radius: 9999px;
+  padding: 16px;
+  margin: 0 12px;
+  background-color: aqua;
+  border: none;
+  transition: 300ms ease;
+}
+
+
   /* PRE-FOOTER */
 
   .pre-foot-row{
