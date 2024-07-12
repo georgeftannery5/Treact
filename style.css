@@ -1038,7 +1038,7 @@ body {
   .row-foot{
     width: 100%;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: blue;
     margin-top: 100px;
   }
 
@@ -1120,6 +1120,11 @@ body {
   /* RESPONSIVE */
 
   @media(max-width:1200px){
+
+    *{
+      padding-left: 8px;
+      padding-right: 8px;
+    }
     
     .pre-foot-wrap{
         padding: 32px 0;
@@ -1298,6 +1303,7 @@ body {
     }
 
     .customers{
+      padding-top: 16px;
       align-items: center;
     }
 
@@ -1353,7 +1359,7 @@ body {
       }
 
       .feature__service{
-        width: 100%;
+        width: 55%;
         padding: 22px;
         display: flex;
         flex-direction: column;
@@ -1366,9 +1372,12 @@ body {
         padding: 0 24px;
       }
 
-      .feature__text{
-        padding: 0 24px;
-        margin: 0;
+      .feature__txt{
+        align-items: center;
+      }
+
+      .feature__logo{
+        align-items: center;
       }
 
       .row-quality{
@@ -1502,6 +1511,11 @@ body {
         width: 65%;
       }
 
+      .plan-center{
+        margin-top: 24px;
+        width: 65%;
+      }
+
       .plan-right{
         margin-top: 24px;
         width: 65%;
@@ -1594,12 +1608,18 @@ body {
     }
 
     .text__box{
+      max-width: 100%;
       display: flex;
       text-align: center;
       padding-left: 0;
     }
 
+    .email__button{
+      max-width: 100%;
+    }
+
     .button{
+      max-width: 95%;
       align-items: center;
       justify-content: center;
       padding-left: 24px;
