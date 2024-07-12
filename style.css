@@ -236,7 +236,8 @@ body {
   }
   
   .email__button {
-    position:relative
+    position:relative;
+    padding-right: 16px;
   }
   
   .button {
@@ -270,13 +271,15 @@ body {
     width: 100%;
     opacity: .5;
     font-size: 16px;
-    margin-top: 80px;
+}
+
+.customers-para{
+  padding-top: 24px;
 }
 
 .trusted-customers{
     max-width: 100%;
     width: 90%;
-    padding-top: 20px;
 }
 
 .beautiful-right{
@@ -306,10 +309,11 @@ body {
     font-weight: 900;
 }
 
-.service-para-wrap{
-    display: flex;
-    justify-content: center;
+.feature-para-wrap{
+  display: flex;
+   text-align: center;
 }
+
 
 .feature__services{
     display: flex;
@@ -341,7 +345,7 @@ body {
     justify-content: center;
 }
 
-.feature__text{
+.feature__txt{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -529,6 +533,11 @@ body {
     justify-content: center;
 }
 
+.value-title-wrapper{
+  display: flex;
+  align-items: center;
+}
+
 .row-values-left{
     width: 50%;
     margin-right: 24px;
@@ -589,7 +598,6 @@ body {
 
 .value-title-left{
     padding-left: 16px;
-    margin-bottom: 32px;
     font-size: 20px;
 }
 
@@ -602,7 +610,6 @@ body {
 
 .value-title-right{
     padding-left: 16px;
-    margin-bottom: 32px;
     font-size: 20px;
 }
 
